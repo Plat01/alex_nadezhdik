@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-11-01",
+  "source_page": "https://nadezhdik.ru/",
+  "purpose": "Локальные референсы для DESIGN.md; не готовый набор production-ассетов",
+  "rights": "Правообладатель и условия переработки не установлены; открытая лицензия не найдена. Скачивание для исследования по поручению пользователя не является лицензией на публикацию.",
+  "files": [
+    {
+      "file": "assets/references/nadezhdik/originals/penguin-welcome.png",
+      "url": "https://nadezhdik.ru/tilda/img/tild6262-6532-4834-b333-656465626439__layer_8_1.png",
+      "bytes": 150724,
+      "sha256": "c40beacafe8ea4f2a62e4d2a92038b3931ad3071446874b28e9f8027dca4a815",
+      "original_filename": "tild6262-6532-4834-b333-656465626439__layer_8_1.png",
+      "description": "Маскот, приветственный жест; прозрачный фон",
+      "width": 682,
+      "height": 887,
+      "has_transparency": true
+    },
+    {
+      "file": "assets/references/nadezhdik/originals/academy-banner.svg",
+      "url": "https://nadezhdik.ru/tilda/img/tild3332-6265-4262-a665-653439303163__group_30.svg",
+      "bytes": 19291,
+      "sha256": "6514420c4b051f354afa5e47a802eb30410e89d758a1a020db3451be7369c4e7",
+      "original_filename": "tild3332-6265-4262-a665-653439303163__group_30.svg",
+      "description": "Наклонная типографическая композиция текущего сайта"
+    },
+    {
+      "file": "assets/references/nadezhdik/originals/penguin-folk.png",
+      "url": "https://nadezhdik.ru/tilda/img/tild6436-3536-4233-a561-646139366663__04_1_1.png",
+      "bytes": 280981,
+      "sha256": "62bdee1ae5c16a203336641f8cbe1583b2a6fa12c92037a4393062663969b276",
+      "original_filename": "tild6436-3536-4233-a561-646139366663__04_1_1.png",
+      "description": "Иллюстративная сцена с гармонью и детьми",
+      "width": 844,
+      "height": 844,
+      "has_transparency": false
+    },
+    {
+      "file": "assets/references/nadezhdik/originals/wordmark.svg",
+      "url": "https://nadezhdik.ru/tilda/img/tild6237-3730-4462-b233-626131626335___1.svg",
+      "bytes": 3510,
+      "sha256": "bd72de16f5578bc27d9b8a5ea1eb60ba3ef2609d3f0e1935ef97ca5ea65182ed",
+      "original_filename": "tild6237-3730-4462-b233-626131626335___1.svg",
+      "description": "Фирменное написание названия из подвала"
+    },
+    {
+      "file": "assets/references/nadezhdik/originals/penguin-face.svg",
+      "url": "https://nadezhdik.ru/tilda/img/tild3964-3135-4662-b431-626161633436____1.svg",
+      "bytes": 2309,
+      "sha256": "ca2bb664c987dd952f320b51c241a7f9d60de847753e6d39181076e01a521dbb",
+      "original_filename": "tild3964-3135-4662-b431-626161633436____1.svg",
+      "description": "Одноцветный знак лица из подвала"
+    },
+    {
+      "file": "assets/references/nadezhdik/originals/penguin-football.png",
+      "url": "https://nadezhdik.ru/tilda/img/tild6636-6332-4437-b535-393330373635__03_1.png",
+      "bytes": 1161156,
+      "sha256": "c4383da52dcad5cefe8b0eb28823ffb44726d9a198ca9cac26919471b107d67e",
+      "original_filename": "tild6636-6332-4437-b535-393330373635__03_1.png",
+      "description": "Иллюстративная футбольная сцена",
+      "width": 841,
+      "height": 841,
+      "has_transparency": false
+    }
+  ]
+}
