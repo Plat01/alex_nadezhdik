@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "installedOn": "2026-11-01",
+  "scope": "project",
+  "directory": ".agents/skills",
+  "installer": "OpenAI skill-installer/scripts/install-skill-from-github.py",
+  "packages": [
+    {
+      "repository": "https://github.com/Leonxlnx/taste-skill",
+      "revision": "12af471f627f866411b4bd785b19646d3672784c",
+      "license": "MIT",
+      "licenseFiles": [
+        ".agents/skill-sources/licenses/Leonxlnx--taste-skill/LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "design-taste-frontend",
+          "path": ".agents/skills/design-taste-frontend",
+          "upstreamPath": "skills/taste-skill",
+          "files": 39,
+          "archiveLineEndingConversions": []
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/pbakaus/impeccable",
+      "revision": "4f956490f0056ae1ff5ea80372cf56e83c001d3c",
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        ".agents/skill-sources/licenses/pbakaus--impeccable/LICENSE",
+        ".agents/skill-sources/licenses/pbakaus--impeccable/NOTICE.md"
+      ],
+      "skills": [
+        {
+          "name": "impeccable",
+          "path": ".agents/skills/impeccable",
+          "upstreamPath": ".agents/skills/impeccable",
+          "files": 63,
+          "archiveLineEndingConversions": [
+            {
+              "path": "scripts/impeccable.cmd",
+              "gitLineEndings": "LF",
+              "archiveLineEndings": "CRLF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/emilkowalski/skills",
+      "revision": "a81dbca07f2217b7103e510c0f13f8d5b017afc9",
+      "license": "MIT",
+      "licenseFiles": [
+        ".agents/skill-sources/licenses/emilkowalski--skills/LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "animate",
+          "path": ".agents/skills/animate",
+          "upstreamPath": "skills/animate",
+          "files": 2,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "animate-expo",
+          "path": ".agents/skills/animate-expo",
+          "upstreamPath": "skills/animate-expo",
+          "files": 2,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "animation-performance",
+          "path": ".agents/skills/animation-performance",
+          "upstreamPath": "skills/animation-performance",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "animation-vocabulary",
+          "path": ".agents/skills/animation-vocabulary",
+          "upstreamPath": "skills/animation-vocabulary",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "apple-design",
+          "path": ".agents/skills/apple-design",
+          "upstreamPath": "skills/apple-design",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "ask-sonner",
+          "path": ".agents/skills/ask-sonner",
+          "upstreamPath": "skills/ask-sonner",
+          "files": 2,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "break-ui",
+          "path": ".agents/skills/break-ui",
+          "upstreamPath": "skills/break-ui",
+          "files": 2,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "emil-design-eng",
+          "path": ".agents/skills/emil-design-eng",
+          "upstreamPath": "skills/emil-design-eng",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "find-animation-opportunities",
+          "path": ".agents/skills/find-animation-opportunities",
+          "upstreamPath": "skills/find-animation-opportunities",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "improve-animations",
+          "path": ".agents/skills/improve-animations",
+          "upstreamPath": "skills/improve-animations",
+          "files": 3,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "mobile-native",
+          "path": ".agents/skills/mobile-native",
+          "upstreamPath": "skills/mobile-native",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "pick-ui-library",
+          "path": ".agents/skills/pick-ui-library",
+          "upstreamPath": "skills/pick-ui-library",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "prototype",
+          "path": ".agents/skills/prototype",
+          "upstreamPath": "skills/prototype",
+          "files": 2,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "remove-animations",
+          "path": ".agents/skills/remove-animations",
+          "upstreamPath": "skills/remove-animations",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "review-animations",
+          "path": ".agents/skills/review-animations",
+          "upstreamPath": "skills/review-animations",
+          "files": 2,
+          "archiveLineEndingConversions": []
+        },
+        {
+          "name": "write-swift",
+          "path": ".agents/skills/write-swift",
+          "upstreamPath": "skills/write-swift",
+          "files": 1,
+          "archiveLineEndingConversions": []
+        }
+      ]
+    }
+  ]
+}
