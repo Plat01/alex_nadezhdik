@@ -1,0 +1,54 @@
+{
+  "base": "http://localhost:4174/dist/",
+  "results": [
+    {
+      "label": "phone",
+      "overflow": false,
+      "font": true,
+      "images": true,
+      "badAnchors": [],
+      "menuOpened": true,
+      "menuClosed": true,
+      "selected": "English N club",
+      "message": "Здравствуйте! Интересует направление «English N club». Подскажите, пожалуйста, возрастные группы, расписание и стоимость занятий.",
+      "motion": {
+        "animations": 0,
+        "scroll": "auto"
+      }
+    },
+    {
+      "label": "laptop",
+      "overflow": false,
+      "font": true,
+      "images": true,
+      "badAnchors": [],
+      "selected": "English N club",
+      "message": "Здравствуйте! Интересует направление «English N club». Подскажите, пожалуйста, возрастные группы, расписание и стоимость занятий.",
+      "motion": {
+        "animations": 0,
+        "scroll": "auto"
+      }
+    },
+    {
+      "label": "wide",
+      "overflow": false,
+      "font": true,
+      "images": true,
+      "badAnchors": [],
+      "selected": "English N club",
+      "message": "Здравствуйте! Интересует направление «English N club». Подскажите, пожалуйста, возрастные группы, расписание и стоимость занятий.",
+      "motion": {
+        "animations": 0,
+        "scroll": "auto"
+      }
+    }
+  ],
+  "staticPage": {
+    "heading": "Большие\nоткрытия.\nС маленького\nшага.",
+    "contact": 1,
+    "fallback": "Выбор направления требует JavaScript. Напишите название занятия администратору в сообщении или позвоните.",
+    "details": true
+  },
+  "errors": [],
+  "requests": []
+}
