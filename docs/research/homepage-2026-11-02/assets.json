@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-02",
+  "files": [
+    {
+      "file": "public/fonts/OFL.txt",
+      "bytes": 4393,
+      "sha256": "270e8bfc5b8f26a2ca1433cf4d65d6d93771d2131715a57460702c0df4057c06"
+    },
+    {
+      "file": "public/fonts/golos-text.woff2",
+      "bytes": 76444,
+      "sha256": "4d575d5d2ed1030ae0fffc51057ce7bb1ba4d460e98288f7a38b3332b4531bf6"
+    },
+    {
+      "file": "public/images/football.webp",
+      "bytes": 113010,
+      "sha256": "606212c41a0c57ed65d1752ee847d316e611b9ec329e6542eef468e50089888e"
+    },
+    {
+      "file": "public/images/penguin-face.svg",
+      "bytes": 2309,
+      "sha256": "cc8529362d5f662ee228fb9f998e931163b2a6e4a831add16926f90eec182d0f"
+    },
+    {
+      "file": "public/images/penguin-welcome.webp",
+      "bytes": 73142,
+      "sha256": "13de5812b27be5241855928ea38dfdac1d8736bbd45909d9b2c763105b4a063c"
+    },
+    {
+      "file": "public/images/wordmark.svg",
+      "bytes": 3510,
+      "sha256": "bed0f304315d3dcac2982f07bfcb0de8a7777adceccb799b9e575b4ea29eef1c"
+    }
+  ]
+}

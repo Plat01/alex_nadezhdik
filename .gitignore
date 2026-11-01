@@ -1,6 +1,10 @@
 # Taste working files; record accepted design decisions in DESIGN.md.
 .taste-skill/
 
+# Generated site and browser session logs.
+dist/
+.playwright-mcp/
+
 # Impeccable engine cache and transient output. Keep shared design artifacts.
 **/.impeccable/cache/
 **/.impeccable/config.local.json

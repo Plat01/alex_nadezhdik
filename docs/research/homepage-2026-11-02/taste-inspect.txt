@@ -1,0 +1,53 @@
+TASTESKILL · INSPECT   http://localhost:4173
+
+MEASURED (first viewport listed)
+  hero headline   "Большие открытия. С маленького шага."  5 words · 4 line(s) · 82.1px (5.7vw) · Golos 650 · tracking -0.04em · leading 1.02
+  @768px          4 line(s) · 51px
+  @390px          4 line(s) · 47px
+  typefaces       Golos 100%
+  sizes in use    13 / 14 / 15 / 16 / 17 / 22 / 23 / 27 / 28 / 31 / 38 / 61 / 63 / 69 / 75 / 82 / 187 px   body 16px / 1.65
+  colour          page #ffffff · sections #0091cf #edf7fb #ff532d · button #17232b
+  page            5.4 screens · 420 words · 6 images · hero media 28% img
+  headings        17 · longest 4 line(s) · median 3 words
+
+FAIL — fix every one of these
+  [headline-lines] @1440px  2 headline(s) wrap past two lines at 1440px: "Большие открытия. С маленького шага." → 4 lines (5 words, 82.1px); "Сначала — интерес. Потом — «Я могу!»" → 3 lines (7 words, 74.9px)
+      → Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less.
+  [eyebrow] @1440px (+768, 390)  7 eyebrow/kicker label(s) above headings: "Магнитогорск" above "Большие открытия. С маленького шага."; "2–11 лет" above "Академия футбола"; "12–17 лет" above "Надеждик Юниор"; "Английский язык" above "English N club"; "Хореографическая академия" above "N DANCE"
+      → Delete them. If the label carried real information, fold it into the headline or the supporting sentence.
+  [numbering] @1440px (+768, 390)  Decorative index numbers: "01 / 05"
+      → Remove them. If order truly matters, write it into the words ("First, …") or use a real <ol>.
+  [hairline] @1440px (+768, 390)  9 thin rule(s)/divider line(s): div.hero-bottom 1344px | details.activity 653px | details.activity 653px | details.activity 653px
+      → Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.
+  [few-pictures] @1440px  Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.
+      → Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve.
+  [still-page] @1440px  Only 2 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+  [headline-lines] @768px  2 headline(s) wrap past two lines at 768px: "Большие открытия. С маленького шага." → 4 lines (5 words, 51px); "Сначала — интерес. Потом — «Я могу!»" → 4 lines (7 words, 46px)
+      → Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less.
+  [headline-lines] @390px  2 headline(s) wrap past two lines at 390px: "Большие открытия. С маленького шага." → 4 lines (5 words, 47px); "Сначала — интерес. Потом — «Я могу!»" → 4 lines (7 words, 48px)
+      → Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less.
+  [shadow] @390px  1 box-shadow(s) on elements at rest: nav → rgba(23, 35, 43, 0.1) 0px 12px 28px 0px
+      → Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).
+
+WARN — fix, or be able to defend
+  [outlined-box] @1440px (+768, 390)  1 box(es) drawn with a 1px outline.
+      → Prefer a filled surface or no box.
+  [size-count] @1440px (+768, 390)  17 different font sizes (13, 14, 15, 16, 17, 22, 23, 27, 28, 31, 38, 61, 63, 69, 75, 82, 187).
+      → A page needs about five: display, heading, lead, body, small.
+  [grey-body] @1440px  The running text is a soft grey on its ground (5:1).
+      → Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  .taste-skill/inspect/desktop-fold.jpg
+                  .taste-skill/inspect/desktop-page-01.jpg
+                  .taste-skill/inspect/desktop-page-02.jpg
+  tablet 768px    .taste-skill/inspect/tablet-fold.jpg
+                  .taste-skill/inspect/tablet-page-01.jpg
+  mobile 390px    .taste-skill/inspect/mobile-fold.jpg
+                  .taste-skill/inspect/mobile-page-01.jpg
+
+report: .taste-skill/inspect/report.json
+RESULT: 9 FAIL, 4 WARN — not done.

@@ -1,0 +1,12 @@
+{
+  "name": "nadezhdik-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "check": "node --check src/main.js && node --check scripts/build.mjs && node --check scripts/serve.mjs"
+  }
+}
